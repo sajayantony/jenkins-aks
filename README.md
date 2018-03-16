@@ -20,7 +20,7 @@ az storage account create -n $STORAGE_ACCOUNT -g $RESOURCE_GROUP_AKS -l $LOCATIO
 
 ### Create the storage class
 
-Edit [azure-file-sc.yaml](azure-file.sc.yaml) and replace with the storage account created. 
+Edit [azure-file-sc.yaml](azure-file-sc.yaml) and replace with the storage account created. 
 
 ```
 kubectl create -f azure-file-sc.yaml
